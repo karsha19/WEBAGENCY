@@ -471,7 +471,7 @@ projects
   align-items: center;
   justify-content: center;
   margin-top: 0;
-  max-width: 768px;
+  max-width: 600px;
   margin-bottom: 20px;
 }
 
@@ -479,10 +479,11 @@ projects
   background-color: var(--btn-projects);
   border: none;
   color: var(--btn-projects-color);
-  padding: 10px 12px;
+  padding: 8px 5px;
   text-align: center;
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  font-weight: bold;
   cursor: pointer;
   width: calc(100% / 4);
   position: relative;
@@ -491,7 +492,7 @@ projects
 .projects-buttons .btn:hover {
   background-color: var(--main-color);
   color: #fff;
-  padding: 5px 12px 15px;
+  padding: 3px 5px 11px;
   font-weight: bold;
 }
 
@@ -828,6 +829,20 @@ end footer
     padding: 4px 8px;
     font-size: 0.4rem;
   }
+
+  /* projects  */
+  .projects-buttons .btn {
+    padding: 10px 12px;
+  }
+
+  .projects-buttons .btn:hover {
+    background-color: var(--main-color);
+    padding: 5px 12px 15px;
+  }
+
+
+
+
 }
 
 /* end media query 520  */
