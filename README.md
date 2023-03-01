@@ -8,7 +8,7 @@ WebAgency is the first projet at Studi school. We have to crete a website with H
 
 - Hover effects
 
-- Display flex
+- Flexbox
 
 - Google maps
 
