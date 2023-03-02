@@ -71,7 +71,6 @@ iframe {
   padding: 0 15px;
   background-color: #fff;
   max-width: var(--max-width);
-
 }
 
 /* 
@@ -184,10 +183,7 @@ end header
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
-
 }
-
-
 
 .my-slides-title {
   color: #fff;
@@ -205,18 +201,12 @@ end header
   line-height: .8rem;
 }
 
-
-
 .my-slides-text p {
   color: #fff;
   text-transform: none;
   max-width: 60%;
   font-size: .5rem;
 }
-
-
-
-
 
 .my-slides-text button {
   background-color: var(--main-color);
@@ -227,7 +217,6 @@ end header
   font-size: 0.3rem;
   font-weight: bold;
 }
-
 
 .container-slider .slide-img img {
   width: 100%;
@@ -293,8 +282,6 @@ end header
   animation: scroll .4s ease-in-out;
 }
 
-
-
 @keyframes scroll {
   0% {
     opacity: 0;
@@ -357,7 +344,6 @@ line division titles
 /* 
 end titles  
 */
-
 
 
 /* 
@@ -681,7 +667,6 @@ contact
   color: var(--input-placeholders);
 }
 
-
 .contact-title {
   margin: 0 0 15px;
 }
@@ -746,12 +731,11 @@ end footer
 /* media query 375  */
 @media screen and (min-width:375px) {
 
+  /* slides  */
   .my-slides-text {
     width: 80%;
     height: 60%;
   }
-
-
 
   .my-slides-title {
     max-width: 180px;
@@ -764,13 +748,10 @@ end footer
     line-height: .9rem;
   }
 
-
-
   .my-slides-text p {
     max-width: 60%;
     font-size: .5rem;
   }
-
 
   .my-slides-text button {
     border-radius: 2px;
@@ -782,10 +763,6 @@ end footer
 /* end media query 375  */
 
 
-
-
-
-
 /* media query 520  */
 @media screen and (min-width:520px) {
 
@@ -794,18 +771,14 @@ end footer
     height: 280px;
   }
 
-
   .my-slides-text {
     width: 80%;
     height: 55%;
   }
 
-
-
   .my-slides-title {
     max-width: 220px;
     font-size: .8rem;
-
   }
 
   .my-slides-text span {
@@ -813,25 +786,15 @@ end footer
     line-height: 1.2rem;
   }
 
-
-
   .my-slides-text p {
     max-width: 70%;
     font-size: .6rem;
   }
 
-
   .my-slides-text button {
     border-radius: 2px;
     font-size: 0.32rem;
   }
-
-
-
-
-
-
-
 
   /* projects  */
   .projects-buttons .btn {
@@ -842,14 +805,9 @@ end footer
     background-color: var(--main-color);
     padding: 5px 12px 15px;
   }
-
-
-
-
 }
 
 /* end media query 520  */
-
 
 
 /* 
@@ -863,7 +821,6 @@ media query 640
   .main-container {
     margin-top: 90px;
   }
-
 
   .container-header {
     padding: 0 30px;
@@ -921,15 +878,11 @@ media query 640
     width: 80%;
     height: 50%;
     transform: translateY(-60%);
-
   }
-
-
 
   .my-slides-title {
     max-width: 250px;
     font-size: 1rem;
-
   }
 
   .my-slides-text span {
@@ -937,20 +890,15 @@ media query 640
     line-height: 1.8rem;
   }
 
-
-
   .my-slides-text p {
     max-width: 70%;
     font-size: .7rem;
   }
 
-
   .my-slides-text button {
     border-radius: 2px;
     font-size: 0.4rem;
   }
-
-
 
   .prev,
   .next {
@@ -971,7 +919,6 @@ media query 640
     content: "<";
     border-radius: 50%;
     left: 40%;
-
   }
 
   .next::after {
@@ -1007,11 +954,6 @@ media query 768
   /* 
   header  
   */
-
-
-
-
-
   .header {
     flex-direction: row;
   }
@@ -1029,30 +971,22 @@ media query 768
     height: 55%;
     transform: translateY(-60%);
     left: 40px;
-
   }
-
-
 
   .my-slides-title {
     max-width: 400px;
     font-size: 1.5rem;
-
   }
 
   .my-slides-text span {
     font-size: 1.5rem;
     line-height: 3rem;
-
   }
-
-
 
   .my-slides-text p {
     max-width: 70%;
     font-size: .9rem;
   }
-
 
   .my-slides-text button {
     border-radius: 4px;
@@ -1097,7 +1031,6 @@ media query 768
     content: "<";
     border-radius: 50%;
     left: 60%;
-
   }
 
   .next::after {
@@ -1134,38 +1067,28 @@ media query 992
     width: 80%;
     height: 45%;
     left: 50px;
-
   }
-
-
 
   .my-slides-title {
     max-width: 400px;
     font-size: 1.5rem;
-
   }
 
   .my-slides-text span {
     font-size: 1.5rem;
     line-height: 3rem;
-
   }
-
-
 
   .my-slides-text p {
     max-width: 70%;
     font-size: .9rem;
   }
 
-
   .my-slides-text button {
     border-radius: 4px;
     font-size: 0.7rem;
     padding: 5px 9px;
   }
-
-
 
   .prev::after,
   .next::after {
@@ -1186,7 +1109,6 @@ media query 992
   .next {
     width: 40px;
     height: 40px;
-
   }
 
   .prev::after {
@@ -1198,8 +1120,6 @@ media query 992
     content: ">";
     left: 25%;
   }
-
-
 
   /* 
 services
@@ -1247,14 +1167,10 @@ services
 media querie 1200  
 */
 @media screen and (min-width:1200px) {
+
   /* 
   sliders
     */
-
-
-
-
-
   .container-slider {
     /* height: 550px; */
     max-height: 520px;
@@ -1270,31 +1186,21 @@ media querie 1200
     width: 80%;
     height: 40%;
     left: 80px;
-
   }
-
-
 
   .my-slides-title {
     max-width: 450px;
     font-size: 1.8rem;
-
   }
 
   .my-slides-text span {
     font-size: 1.8rem;
     line-height: 4rem;
-
   }
-
-
 
   .my-slides-text p {
-
     font-size: 1rem;
   }
-
-
 
   .prev,
   .next {
@@ -1336,7 +1242,6 @@ media querie 1200
   .projects-gallery-work {
     width: 100%;
     max-width: 320px;
-
   }
 }
 
