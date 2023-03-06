@@ -936,7 +936,7 @@ media query 640
 
   .projects-gallery-work {
     width: 100%;
-    max-width: 280px;
+    max-width: 48%;
   }
 }
 
@@ -1152,6 +1152,15 @@ services
     margin-bottom: 2px;
   }
 
+  /* projects  */
+  .projects-gallery-work {
+    width: 100%;
+    max-width: 31%;
+  }
+
+
+
+
   /* contact  */
   .contact form {
     top: 20px;
@@ -1240,9 +1249,10 @@ media querie 1200
     gap: 10px;
   }
 
+  /* projects  */
   .projects-gallery-work {
     width: 100%;
-    max-width: 320px;
+    max-width: 24%;
   }
 }
 
