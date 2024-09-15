@@ -1,6 +1,6 @@
 # WebAgency
 
-WebAgency is the first projet at Studi school. We have to crete a website with HTML and CSS only. For this projet, we have some items that must be present in this project, like:
+WebAgency is the first project at Studi school. We have to create a website with HTML and CSS only. For this project, We have given some elements that must be present in this project, given below:
 
 - Responsive
 
